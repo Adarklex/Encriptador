@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../css/styles.css">
+        <title> Encrypter and Decrypter Text - Alura</title>
+
+    </head>
+    
+    <body>
+
+        <header id="header">
+            
+            ENCRIPTADOR Y DESENCRIPTADOR ALURA
+            
+        </header>
+        <p></p>
+        <div id="subheader">¡Antes de escribir tenga en cuenta que el encriptador no distingue mayúsculas, acentos o caracteres especiales!</div>
+        <main>
+            <div id="input-div">
+                <textarea id="input" placeholder="Escriba aqui el mensaje que quiere encriptar o desencriptar"></textarea>
+                <div id="buttons">
+                    <button onclick="encrypt()">Encriptar</button>
+                    <button onclick="decrypt()">Desencriptar</button>
+                </div>
+            </div>
+                
+            <div id="output-div">
+                <textarea id="output" disabled="true">Su texto encriptado o desencriptado aqui</textarea>
+                <div id="copiar"><button onclick="copi()">Copiar</button></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Challenge Alura: Text encrypter </p>
+            <p>Alura LATAM + Oracle © 2023</p>
+            <p>Made by Brayan Alexander Sarmiento Reyes</p>
+        </footer>
+
+        <script src="Encrypter.js"></script>
+    </body>
+
+</html>
